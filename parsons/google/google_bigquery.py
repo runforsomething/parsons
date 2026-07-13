@@ -14,7 +14,7 @@ from google.api_core import exceptions
 from google.cloud import bigquery
 from google.cloud.bigquery import ExtractJob, dbapi, job
 from google.cloud.bigquery.job import ExtractJobConfig, LoadJobConfig, QueryJobConfig
-from google.oauth2.credentials import Credentials
+from google.auth.credentials import Credentials
 
 from parsons import Table
 from parsons.databases.database_connector import DatabaseConnector
