@@ -1,0 +1,241 @@
+# Repository Coverage
+
+[Full report](https://htmlpreview.github.io/?https://github.com/runforsomething/parsons/blob/python-coverage-comment-action-data/htmlcov/index.html)
+
+| Name                                                      |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
+|---------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
+| parsons/\_\_init\_\_.py                                   |       29 |        6 |        4 |        2 |     76% |16, 108, 115-117, 125 |
+| parsons/actblue/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/actblue/actblue.py                                |       51 |        2 |        6 |        1 |     95% |   156-157 |
+| parsons/action\_builder/\_\_init\_\_.py                   |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/action\_builder/action\_builder.py                |      142 |       24 |       50 |       11 |     81% |43, 155-164, 199, 202, 207, 211, 250, 378-387, 390, 393-401, 461, 466 |
+| parsons/action\_kit/\_\_init\_\_.py                       |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/action\_kit/action\_kit.py                        |      309 |       38 |       70 |       18 |     83% |66, 75, 80, 86-87, 93-100, 432-433, 463-464, 520-\>523, 523-\>526, 527, 563-564, 622-623, 678-679, 737-738, 823-824, 842-844, 919-\>915, 971, 975-\>987, 978, 980, 984-\>975, 992-993, 1177-1178, 1329, 1404-\>1406, 1424-\>1427, 1547-\>1545, 1554 |
+| parsons/action\_network/\_\_init\_\_.py                   |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/action\_network/action\_network.py                |      378 |       68 |      126 |       56 |     74% |87, 129, 155, 268, 337, 365, 401, 444, 488, 599, 642, 685-\>689, 689-\>692, 723, 747, 852, 932, 974, 1018, 1022, 1183, 1219, 1345, 1463, 1466-1467, 1468-\>1476, 1471, 1478, 1480, 1482-1491, 1497-1498, 1502, 1505, 1513-\>1515, 1516, 1517-\>1519, 1519-\>1521, 1522, 1524, 1526, 1531, 1540, 1581, 1645, 1676, 1725, 1772, 1802, 1844, 1870, 1984, 2010, 2113, 2217, 2254-2261, 2287, 2338, 2363, 2388, 2430 |
+| parsons/airmeet/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/airmeet/airmeet.py                                |       87 |        1 |       18 |        3 |     96% |210-\>214, 425-\>427, 460 |
+| parsons/airtable/\_\_init\_\_.py                          |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/airtable/airtable.py                              |       70 |        2 |       18 |        5 |     92% |113, 119, 169-\>172, 313-\>320, 320-\>323 |
+| parsons/alchemer/\_\_init\_\_.py                          |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/alchemer/alchemer.py                              |       43 |        7 |       14 |        7 |     75% |17, 20, 23, 78-\>83, 80-81, 110-\>115, 112-113 |
+| parsons/auth0/\_\_init\_\_.py                             |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/auth0/auth0.py                                    |       84 |       14 |       34 |       15 |     74% |82, 116, 118, 127-\>129, 129-\>131, 142, 144, 168, 207, 210, 214-216, 224-\>223, 229-230, 249-\>248, 252 |
+| parsons/aws/\_\_init\_\_.py                               |        4 |        0 |        0 |        0 |    100% |           |
+| parsons/aws/aws\_async.py                                 |       54 |       13 |       14 |        3 |     71% |36-44, 59-\>61, 62, 72-101 |
+| parsons/aws/lambda\_distribute.py                         |       79 |        7 |       12 |        3 |     89% |44, 47, 54-57, 109, 205, 249 |
+| parsons/aws/s3.py                                         |      107 |       86 |       36 |        0 |     15% |27-42, 76-87, 97, 111-120, 159-220, 236-243, 269, 290, 303, 328-333, 351, 403-441, 456-459 |
+| parsons/azure/\_\_init\_\_.py                             |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/azure/azure\_blob\_storage.py                     |      110 |       86 |       20 |        0 |     18% |52-65, 76-78, 91-98, 111-112, 141-145, 156-157, 174-177, 192-199, 214-216, 253-269, 284-302, 325-339, 360-370, 383-385, 408-417 |
+| parsons/bill\_com/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/bill\_com/bill\_com.py                            |       75 |        3 |       20 |        3 |     94% |275-\>274, 278-279, 308 |
+| parsons/bloomerang/\_\_init\_\_.py                        |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/bloomerang/bloomerang.py                          |      108 |        4 |       12 |        4 |     93% |60, 93, 96, 190 |
+| parsons/box/\_\_init\_\_.py                               |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/box/box.py                                        |      146 |      110 |       38 |        0 |     20% |67-72, 85-89, 102-114, 129-130, 148-150, 161-163, 173, 184-185, 195, 215-216, 234-244, 259, 273, 291-292, 326-348, 365-370, 394-426, 447-455, 471-472, 494-510, 541-586 |
+| parsons/braintree/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/braintree/braintree.py                            |       98 |        9 |       34 |       11 |     85% |252, 471, 485, 502, 504, 505-\>507, 508, 539, 541, 544, 555-\>exit |
+| parsons/capitol\_canary/\_\_init\_\_.py                   |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/capitol\_canary/capitol\_canary.py                |       81 |        4 |       28 |        5 |     92% |58-59, 129, 183-\>188, 185-\>188, 267 |
+| parsons/catalist/\_\_init\_\_.py                          |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/catalist/catalist.py                              |      143 |       51 |       42 |        8 |     58% |170-180, 238-\>241, 246, 248, 250, 291-321, 345-356, 372-382, 396, 420-421, 454 |
+| parsons/census/\_\_init\_\_.py                            |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/census/census.py                                  |       18 |        0 |        0 |        0 |    100% |           |
+| parsons/civis/\_\_init\_\_.py                             |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/civis/civisclient.py                              |       24 |       16 |        6 |        0 |     27% |28-31, 63-81, 131-148 |
+| parsons/community/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/community/community.py                            |       24 |        0 |        0 |        0 |    100% |           |
+| parsons/controlshift/\_\_init\_\_.py                      |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/controlshift/controlshift.py                      |       20 |        2 |        6 |        2 |     85% |    34, 36 |
+| parsons/copper/\_\_init\_\_.py                            |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/copper/copper.py                                  |      119 |        9 |       42 |        5 |     90% |53, 74-79, 99, 303, 327 |
+| parsons/daisychain/\_\_init\_\_.py                        |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/daisychain/daisychain.py                          |       35 |        4 |        8 |        1 |     88% |     26-34 |
+| parsons/databases/\_\_init\_\_.py                         |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/alchemy.py                              |       39 |       29 |       16 |        0 |     18% |11-12, 19-38, 42-44, 48-55, 66-75 |
+| parsons/databases/database/\_\_init\_\_.py                |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/database/constants.py                   |       18 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/database/database.py                    |       83 |        4 |       36 |        4 |     93% |152, 173, 179-180, 217-\>220 |
+| parsons/databases/database\_connector.py                  |       13 |        3 |        0 |        0 |     77% |141, 159, 194 |
+| parsons/databases/db\_sync.py                             |      115 |       21 |       36 |        8 |     77% |91-102, 105-\>108, 168-173, 192, 196-197, 206-\>209, 309, 316-317, 329-336 |
+| parsons/databases/discover\_database.py                   |       24 |        0 |       14 |        0 |    100% |           |
+| parsons/databases/mysql/\_\_init\_\_.py                   |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/mysql/constants.py                      |        7 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/mysql/create\_table.py                  |       57 |        6 |       18 |        2 |     84% |30, 48-\>39, 81, 98-103 |
+| parsons/databases/mysql/mysql.py                          |      109 |       66 |       32 |        0 |     32% |88-90, 98-103, 142-143, 167-206, 242-257, 262-274, 296-317, 332, 337 |
+| parsons/databases/postgres/\_\_init\_\_.py                |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/postgres/constants.py                   |        5 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/postgres/postgres.py                    |       52 |       22 |       10 |        1 |     53% |55, 88-102, 107, 115, 132-149 |
+| parsons/databases/postgres/postgres\_core.py              |       90 |       67 |       20 |        0 |     21% |40-57, 61-66, 105-106, 130-167, 189-211, 228-229, 234-255 |
+| parsons/databases/postgres/postgres\_create\_statement.py |       96 |       17 |       40 |        7 |     76% |73, 75, 78, 80-\>83, 87-90, 103, 145, 155-157, 184-\>187, 188, 201-206 |
+| parsons/databases/redshift/\_\_init\_\_.py                |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/redshift/constants.py                   |        5 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/redshift/redshift.py                    |      305 |      243 |       86 |        1 |     16% |106-108, 132-145, 149-153, 200-201, 235-273, 411-477, 632-704, 786-828, 871-890, 933-969, 1029-1143, 1146-1179, 1195-1218, 1233-1241, 1246, 1254-1265, 1276-1283, 1292-1295, 1333-1370, 1416-1444 |
+| parsons/databases/redshift/rs\_copy\_table.py             |       89 |       29 |       46 |       13 |     63% |18, 61, 83-\>85, 85-\>87, 89-\>91, 91-\>93, 94, 95-\>97, 98, 103-106, 109, 122, 125-126, 133-136, 147-173, 176-177 |
+| parsons/databases/redshift/rs\_create\_table.py           |      109 |       17 |       44 |        6 |     80% |72, 74, 77, 79-\>82, 86-89, 102, 143, 153-155, 205, 238-243 |
+| parsons/databases/redshift/rs\_schema.py                  |       12 |        8 |        2 |        0 |     29% |3-5, 23-25, 42-46 |
+| parsons/databases/redshift/rs\_table\_utilities.py        |      219 |      178 |       72 |        1 |     15% |11, 28-29, 32-59, 79-80, 98-100, 123-142, 164-184, 212-229, 257-275, 293-304, 321-331, 351-361, 395-409, 434-444, 461-473, 487-530, 543, 559-579, 593-595, 609-611, 625-632, 653-687, 701-708, 729-751, 778-\>781 |
+| parsons/databases/sqlite/\_\_init\_\_.py                  |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/databases/sqlite/sqlite.py                        |      139 |       13 |       40 |        8 |     88% |46-47, 168, 170, 172, 184, 281, 283, 306, 319-322 |
+| parsons/databases/table.py                                |       62 |       19 |       16 |        2 |     65% |50-54, 81-94, 107-108, 118-\>121, 127-132, 136-137 |
+| parsons/donorbox/\_\_init\_\_.py                          |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/donorbox/donorbox.py                              |       51 |        4 |       14 |        4 |     88% |114, 149, 209, 211 |
+| parsons/empower/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/empower/empower.py                                |       84 |       11 |       10 |        1 |     83% |53, 57, 226-237, 249-250 |
+| parsons/etl/\_\_init\_\_.py                               |        4 |        0 |        0 |        0 |    100% |           |
+| parsons/etl/etl.py                                        |      295 |       11 |      114 |        9 |     95% |286, 298, 303-\>308, 396-397, 609-\>612, 658-\>668, 959-964, 983-984, 988-989 |
+| parsons/etl/table.py                                      |      108 |        9 |       30 |        4 |     91% |116-117, 152-153, 162, 231, 318, 323-324 |
+| parsons/etl/tofrom.py                                     |      182 |       71 |       44 |        5 |     59% |250-252, 390, 394-\>397, 444-446, 491-508, 592-616, 665-687, 714-717, 742-745, 772-775, 850-853, 902-\>905, 928-933, 1019-1023, 1052-1056, 1081-1105, 1134-1139 |
+| parsons/facebook\_ads/\_\_init\_\_.py                     |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/facebook\_ads/facebook\_ads.py                    |      113 |       29 |       30 |        0 |     77% |83-89, 205-210, 238-249, 260, 276-280, 358-394 |
+| parsons/formstack/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/formstack/formstack.py                            |       64 |        4 |       16 |        5 |     89% |72, 83-\>86, 114, 138, 140 |
+| parsons/freshdesk/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/freshdesk/freshdesk.py                            |       67 |        6 |        8 |        3 |     88% |50-54, 80-\>86, 84 |
+| parsons/geocode/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/geocode/census\_geocoder.py                       |       47 |        4 |       10 |        3 |     88% |127-131, 152, 167 |
+| parsons/github/\_\_init\_\_.py                            |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/github/github.py                                  |      119 |       28 |       36 |       11 |     74% |36-\>31, 116-118, 134, 148, 180-182, 202-204, 224, 272-\>274, 278, 280, 282, 284, 286, 308, 344-350, 372-374, 417, 427, 429, 459-461 |
+| parsons/google/\_\_init\_\_.py                            |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/google/google\_admin.py                           |       39 |       12 |       14 |        3 |     64% |30-38, 56, 60-\>73, 64-71 |
+| parsons/google/google\_bigquery.py                        |      435 |      123 |      138 |       38 |     67% |67, 105-109, 156-\>164, 167, 200, 329, 351, 383, 511, 536-569, 870-910, 978, 984-\>987, 1016-\>exit, 1024-1032, 1062, 1088-1089, 1121, 1123, 1171-1174, 1179-1194, 1205-1210, 1277, 1293-1297, 1313-1323, 1342-1352, 1377-1379, 1423, 1426, 1435, 1464, 1468, 1473-1475, 1479-1480, 1520-\>1523, 1534-\>1537, 1537-\>1540, 1540-\>1543, 1543-\>1554, 1554-\>1557, 1557-\>1563, 1558-\>1560, 1561, 1564-\>1577, 1577-\>1580, 1580-\>1583, 1584, 1624, 1640-1648, 1657, 1694-\>1701, 1712-\>1716, 1756-1813, 1821, 1825 |
+| parsons/google/google\_civic.py                           |       53 |        1 |       12 |        1 |     97% |       200 |
+| parsons/google/google\_cloud\_storage.py                  |      194 |      138 |       42 |        4 |     25% |69, 86, 96-98, 111-116, 132, 148-149, 163-165, 197-205, 220-225, 258-264, 285-296, 314, 344-377, 395-402, 439-550, 566, 581-585, 622-656, 663-671, 678-690 |
+| parsons/google/google\_docs.py                            |       15 |       15 |        2 |        0 |      0% |      1-46 |
+| parsons/google/google\_drive.py                           |      119 |       93 |       34 |        0 |     17% |36-49, 57-73, 76-86, 91-110, 115-136, 139-141, 147-154, 157-165, 169-171, 175-191, 214-221, 232-234, 238-240, 273-306, 317-338 |
+| parsons/google/google\_sheets.py                          |      133 |      104 |       40 |        0 |     17% |34-50, 56-67, 82-83, 100-104, 122-125, 160-169, 184-187, 210-221, 232-233, 252-256, 284-321, 348-380, 408-442, 493-495, 507, 519, 531 |
+| parsons/google/utilities.py                               |       33 |        7 |       14 |        1 |     74% |22-\>27, 65-75 |
+| parsons/hustle/\_\_init\_\_.py                            |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/hustle/column\_map.py                             |        1 |        0 |        0 |        0 |    100% |           |
+| parsons/hustle/hustle.py                                  |      169 |       27 |       34 |        9 |     80% |67-68, 90, 105-109, 119-125, 348, 351, 479, 485, 486-\>489, 592-594, 614-622 |
+| parsons/mailchimp/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/mailchimp/mailchimp.py                            |       53 |       10 |       10 |        4 |     75% |115, 215, 354, 395-410, 454 |
+| parsons/mobilecommons/\_\_init\_\_.py                     |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/mobilecommons/mobilecommons.py                    |       98 |       11 |       24 |        6 |     86% |101, 149-\>134, 175-179, 227, 302-310, 357, 435 |
+| parsons/mobilize\_america/\_\_init\_\_.py                 |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/mobilize\_america/ma.py                           |      110 |       25 |       44 |       11 |     74% |41, 53, 63-64, 82, 118-119, 167, 178-\>199, 185-186, 189, 286-\>307, 293-294, 325, 353-361, 383-385 |
+| parsons/nation\_builder/\_\_init\_\_.py                   |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/nation\_builder/nation\_builder.py                |       99 |       10 |       36 |        3 |     89% |102, 113-118, 201, 217-220 |
+| parsons/newmode/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/newmode/newmode.py                                |      268 |       49 |      112 |       41 |     75% |76, 100-\>102, 106-107, 135-\>137, 141-\>140, 145-146, 164-\>166, 170-171, 195-\>197, 200, 204-205, 223-\>225, 229-230, 244-253, 268, 292-\>294, 298-299, 314, 319-320, 338-\>340, 344-345, 360, 365-366, 384-\>386, 390-391, 408, 413-414, 432-\>434, 438-439, 498-\>504, 502-503, 550, 567, 583-\>585, 592-\>571, 613, 626-\>exit, 653-\>655, 680-\>682, 726-\>728, 736, 770-\>772, 802-812, 856 |
+| parsons/ngpvan/\_\_init\_\_.py                            |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/ngpvan/activist\_codes.py                         |       25 |        1 |        0 |        0 |     96% |        14 |
+| parsons/ngpvan/bulk\_import.py                            |       59 |        7 |        4 |        2 |     86% |15, 71, 115-117, 164-165 |
+| parsons/ngpvan/canvass\_responses.py                      |       18 |        1 |        0 |        0 |     94% |        12 |
+| parsons/ngpvan/changed\_entities.py                       |       30 |        4 |        4 |        2 |     82% |15, 95-96, 100 |
+| parsons/ngpvan/codes.py                                   |       52 |        5 |       12 |        5 |     84% |12, 123-\>135, 187, 188-\>190, 191, 194-202 |
+| parsons/ngpvan/contact\_notes.py                          |       28 |        7 |       12 |        6 |     68% |12, 73, 78, 80, 82, 84, 87 |
+| parsons/ngpvan/custom\_fields.py                          |       23 |        3 |        2 |        1 |     84% | 11, 54-55 |
+| parsons/ngpvan/email.py                                   |       57 |        6 |       24 |        2 |     90% |17, 36-\>40, 41, 153-154, 172-173 |
+| parsons/ngpvan/events.py                                  |       48 |       11 |       14 |        7 |     71% |12, 51-\>62, 62-\>65, 102-\>113, 113-\>116, 197, 223, 226, 241-243, 264-268 |
+| parsons/ngpvan/introspection.py                           |        9 |        1 |        0 |        0 |     89% |         8 |
+| parsons/ngpvan/locations.py                               |       31 |        2 |        6 |        3 |     86% |12, 110, 112-\>115, 115-\>118 |
+| parsons/ngpvan/people.py                                  |      118 |       27 |       48 |       13 |     70% |11, 164, 201, 262, 307, 330, 338-343, 344-\>346, 347, 349-353, 357, 360, 365-369, 375, 444-\>466, 474-\>477, 585, 696, 702 |
+| parsons/ngpvan/printed\_lists.py                          |       16 |        1 |        0 |        0 |     94% |        12 |
+| parsons/ngpvan/saved\_lists.py                            |      106 |       31 |       18 |        4 |     64% |19, 67-73, 134-187, 244, 247, 253-\>260, 285, 293, 328 |
+| parsons/ngpvan/scores.py                                  |       85 |       17 |       18 |        4 |     76% |18, 72-\>75, 213-\>220, 224, 234, 327, 390-434 |
+| parsons/ngpvan/signups.py                                 |       58 |        9 |       16 |        6 |     80% |12, 32, 35, 161, 163, 164-\>166, 167, 180-182 |
+| parsons/ngpvan/supporter\_groups.py                       |       30 |        4 |        0 |        0 |     87% | 12, 58-60 |
+| parsons/ngpvan/survey\_questions.py                       |       21 |        4 |        2 |        1 |     78% |12, 38-\>40, 66-68 |
+| parsons/ngpvan/targets.py                                 |       33 |        5 |        4 |        1 |     78% |18, 21, 67-70 |
+| parsons/ngpvan/utilities.py                               |        9 |        4 |        4 |        1 |     46% |  9, 16-19 |
+| parsons/ngpvan/van.py                                     |       29 |        0 |        0 |        0 |    100% |           |
+| parsons/ngpvan/van\_connector.py                          |       59 |       11 |       16 |        4 |     75% |30, 55, 61-67, 73-78, 93, 95 |
+| parsons/notifications/\_\_init\_\_.py                     |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/notifications/gmail.py                            |       34 |       15 |        6 |        3 |     55% |31, 34, 43-44, 70-87 |
+| parsons/notifications/sendmail.py                         |      120 |        3 |       36 |        1 |     97% |49, 53, 304 |
+| parsons/notifications/slack.py                            |       89 |        1 |       34 |        4 |     96% |115, 215-\>218, 233-\>224, 264-\>268 |
+| parsons/notifications/smtp.py                             |       34 |        8 |        8 |        1 |     74% |51-55, 76-78 |
+| parsons/pdi/\_\_init\_\_.py                               |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/pdi/acquisition\_types.py                         |       18 |        7 |        0 |        0 |     61% |24, 80-86, 100, 111, 168-174 |
+| parsons/pdi/activities.py                                 |       15 |        6 |        0 |        0 |     60% |20, 33-34, 48, 63-64 |
+| parsons/pdi/contacts.py                                   |       28 |       16 |        2 |        0 |     40% |37-45, 89-106, 121, 163-180, 205-218, 233-241, 252 |
+| parsons/pdi/events.py                                     |       86 |       63 |       26 |        0 |     21% |35-40, 56-58, 110-132, 196-234, 284-303, 340-355, 394-410, 446-461, 500-520, 547-551, 575-579, 597-600 |
+| parsons/pdi/flag\_ids.py                                  |       23 |       10 |        0 |        0 |     57% |26, 40, 100-108, 125-127, 189-197 |
+| parsons/pdi/flags.py                                      |       27 |       17 |        4 |        0 |     32% |29-40, 63-74, 85 |
+| parsons/pdi/locations.py                                  |       16 |        8 |        2 |        0 |     44% |21, 37-38, 41, 44-47 |
+| parsons/pdi/pdi.py                                        |       89 |       46 |       20 |        0 |     45% |    95-173 |
+| parsons/pdi/questions.py                                  |       14 |        5 |        0 |        0 |     64% |22, 36, 76-86, 89 |
+| parsons/pdi/universes.py                                  |        9 |        2 |        0 |        0 |     78% |    22, 36 |
+| parsons/phone2action/\_\_init\_\_.py                      |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/phone2action/p2a.py                               |       23 |        2 |        0 |        0 |     91% |     40-41 |
+| parsons/quickbase/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/quickbase/quickbase.py                            |       30 |        0 |        8 |        0 |    100% |           |
+| parsons/quickbooks/\_\_init\_\_.py                        |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/quickbooks/quickbookstime.py                      |       91 |        9 |       20 |        8 |     85% |39, 50-51, 151, 251, 363, 471, 664, 734 |
+| parsons/redash/\_\_init\_\_.py                            |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/redash/redash.py                                  |       77 |        8 |       24 |        7 |     83% |60, 85-86, 180, 190-194, 224, 266 |
+| parsons/rockthevote/\_\_init\_\_.py                       |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/rockthevote/rtv.py                                |      107 |       25 |       34 |       14 |     70% |66, 101-103, 105-106, 108-109, 123, 134-140, 199-201, 206, 211, 234, 316, 319, 330-332 |
+| parsons/salesforce/\_\_init\_\_.py                        |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/salesforce/salesforce.py                          |       61 |       14 |       14 |        4 |     68% |68, 72-78, 94, 106, 238, 260-274 |
+| parsons/scytl/\_\_init\_\_.py                             |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/scytl/scytl.py                                    |      182 |        9 |       54 |        1 |     95% |554-556, 655-669 |
+| parsons/sftp/\_\_init\_\_.py                              |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/sftp/sftp.py                                      |      162 |      118 |       60 |        1 |     22% |63-67, 78-94, 109-113, 126-130, 143-147, 179-205, 229-247, 281-316, 338-341, 344-345, 349-351, 374-379, 392-396, 413-419, 423-439, 460, 481, 521-536, 548-575 |
+| parsons/sftp/utilities.py                                 |       15 |        8 |        4 |        0 |     37% |7-9, 15-20 |
+| parsons/shopify/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/shopify/shopify.py                                |       66 |       13 |       28 |        6 |     73% |53, 55, 124-126, 128-129, 133, 143-147, 258 |
+| parsons/sisense/\_\_init\_\_.py                           |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/sisense/sisense.py                                |       24 |        0 |        0 |        0 |    100% |           |
+| parsons/targetsmart/\_\_init\_\_.py                       |        3 |        0 |        0 |        0 |    100% |           |
+| parsons/targetsmart/targetsmart\_api.py                   |      113 |       17 |       36 |        8 |     82% |41, 89, 256, 260, 292, 297, 301, 305, 315-316, 321, 328, 468-491 |
+| parsons/targetsmart/targetsmart\_automation.py            |       95 |       72 |       26 |        0 |     19% |53-58, 115-150, 158, 163-191, 196-200, 206-221, 229-247, 252-255 |
+| parsons/targetsmart/targetsmart\_smartmatch.py            |      105 |       13 |       36 |       14 |     81% |78, 87, 99, 113, 118, 196, 202, 207, 210, 216-\>218, 241, 305, 311, 324 |
+| parsons/turbovote/\_\_init\_\_.py                         |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/turbovote/turbovote.py                            |       28 |        0 |        0 |        0 |    100% |           |
+| parsons/twilio/\_\_init\_\_.py                            |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/twilio/twilio.py                                  |       53 |        3 |       18 |        3 |     92% |39, 135, 140 |
+| parsons/utilities/\_\_init\_\_.py                         |        0 |        0 |        0 |        0 |    100% |           |
+| parsons/utilities/\_api\_connector\_types.py              |       23 |        0 |        0 |        0 |    100% |           |
+| parsons/utilities/api\_connector.py                       |      164 |        4 |       68 |        7 |     95% |213-\>215, 301, 313, 417-\>424, 539-\>546, 548, 568 |
+| parsons/utilities/bearer\_auth.py                         |       60 |        0 |       14 |        2 |     97% |111-\>113, 113-\>115 |
+| parsons/utilities/check\_env.py                           |       18 |        4 |       10 |        2 |     79% |91-98, 101-108 |
+| parsons/utilities/cloud\_storage.py                       |       11 |        7 |        6 |        0 |     24% |     39-52 |
+| parsons/utilities/credential\_tools.py                    |       68 |       16 |       22 |        2 |     71% |47, 199-214, 218 |
+| parsons/utilities/datetime.py                             |       25 |        2 |       14 |        2 |     90% |    26, 70 |
+| parsons/utilities/dbt/\_\_init\_\_.py                     |        3 |        0 |        0 |        0 |    100% |           |
+| parsons/utilities/dbt/dbt.py                              |       41 |        1 |       18 |        2 |     95% |47-\>45, 128 |
+| parsons/utilities/dbt/logging.py                          |      138 |       61 |       28 |        4 |     55% |28, 30, 32, 33-\>36, 46, 50, 63-64, 148-153, 158-164, 173-174, 177-183, 211-215, 219-256, 260-269, 272-283 |
+| parsons/utilities/dbt/models.py                           |       79 |       16 |       18 |        3 |     76% |24-25, 31, 47-54, 76-81, 144-146 |
+| parsons/utilities/files.py                                |      121 |       22 |       32 |        8 |     80% |113, 140, 155-157, 169, 184, 192, 208-215, 252, 255, 305, 311-323 |
+| parsons/utilities/format\_phone\_number.py                |        9 |        0 |        4 |        0 |    100% |           |
+| parsons/utilities/json\_format.py                         |       24 |        0 |       14 |        1 |     97% | 43-\>exit |
+| parsons/utilities/oauth\_api\_connector.py                |       24 |        1 |        4 |        0 |     96% |       156 |
+| parsons/utilities/sql\_helpers.py                         |        6 |        0 |        0 |        0 |    100% |           |
+| parsons/utilities/ssh\_utilities.py                       |       29 |        3 |        4 |        2 |     85% |75-77, 79-\>82, 82-\>85 |
+| parsons/utilities/zip\_archive.py                         |       17 |        1 |        2 |        1 |     89% |        30 |
+| parsons/zoom/\_\_init\_\_.py                              |        2 |        0 |        0 |        0 |    100% |           |
+| parsons/zoom/zoom.py                                      |      301 |      100 |       58 |       19 |     65% |99-\>exit, 105-107, 126-129, 148, 192, 242-250, 264-266, 329-\>331, 387-388, 398, 418-419, 443-444, 475-476, 502-503, 527-528, 544-545, 561-562, 630-\>632, 632-\>635, 642, 646-648, 651, 671-673, 709, 725-727, 741-743, 774-777, 803-810, 828-831, 834, 853-856, 859, 876-879, 882, 902-905, 908, 927-930, 933, 950-953, 956, 973-976, 979, 996-999, 1002 |
+| **TOTAL**                                                 | **11083** | **3027** | **3074** |  **574** | **69%** |           |
+
+
+## Setup coverage badge
+
+Below are examples of the badges you can use in your main branch `README` file.
+
+### Direct image
+
+[![Coverage badge](https://raw.githubusercontent.com/runforsomething/parsons/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/runforsomething/parsons/blob/python-coverage-comment-action-data/htmlcov/index.html)
+
+This is the one to use if your repository is private or if you don't want to customize anything.
+
+### [Shields.io](https://shields.io) Json Endpoint
+
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/runforsomething/parsons/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/runforsomething/parsons/blob/python-coverage-comment-action-data/htmlcov/index.html)
+
+Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
+It won't work with private repositories. It won't be refreshed more than once per five minutes.
+
+### [Shields.io](https://shields.io) Dynamic Badge
+
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Frunforsomething%2Fparsons%2Fpython-coverage-comment-action-data%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/runforsomething/parsons/blob/python-coverage-comment-action-data/htmlcov/index.html)
+
+This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
+
+## What is that?
+
+This branch is part of the
+[python-coverage-comment-action](https://github.com/marketplace/actions/python-coverage-comment)
+GitHub Action. All the files in this branch are automatically generated and may be
+overwritten at any moment.
